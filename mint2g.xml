@@ -4,10 +4,10 @@
 	<remote name="omnirom" fetch="https://github.com/omnirom/" />
 	
 	<!-- Device specific stuff -->
-	<project path="device/samsung/mint2g" name="android_device_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
+	<project path="device/samsung/mint" name="android_device_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
 	<project path="device/samsung/sprd-common" name="android_device_samsung_sprd-common" remote="mintxx" revision="cm-11.0" />
-	<project path="vendor/samsung/mint2g" name="android_vendor_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
-	<project path="kernel/samsung/mint2g" name="android_kernel_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
+	<project path="vendor/samsung/mint" name="android_vendor_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
+	<project path="kernel/samsung/mint" name="android_kernel_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
 	
 	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="android-4.4" />
 </manifest>
