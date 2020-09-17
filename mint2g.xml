@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="mintxx" fetch="https://github.com/mintxx-unlegacy/" />
-	<remote name="omnirom" fetch="https://github.com/omnirom/" />
+	<remote name="CyanogenMod" fetch="https://github.com/CyanogenMod/" />
 	
 	<!-- Device specific stuff -->
 	<project path="device/samsung/mint" name="android_device_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
@@ -9,5 +9,5 @@
 	<project path="vendor/samsung/mint" name="android_vendor_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
 	<project path="kernel/samsung/mint" name="android_kernel_samsung_mint2g" remote="mintxx" revision="cm-11.0" />
 	
-	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="android-4.4" />
+	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="cm-11.0" />
 </manifest>
